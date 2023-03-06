@@ -1,0 +1,19 @@
+.content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #dae6ff, #ffc9c9);
+}
+
+.table-responsive {
+  overflow: unset;
+}
+
+.table thead th {
+  vertical-align: middle;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}

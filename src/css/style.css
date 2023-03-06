@@ -1,0 +1,81 @@
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+h1 {
+  color: rgb(204, 204, 204);
+}
+
+th {
+  text-align: center;
+}
+
+input:focus,
+select:focus {
+  box-shadow: none !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#personModal header h3 {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 210%;
+  color: #3e403f;
+}
+
+#personForm {
+  width: 450px;
+  height: auto;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px rgba(106, 160, 241, 0.3098039216);
+  padding: 2%;
+  background-image: linear-gradient(250deg, #e3ecfd, #fff0e8);
+}
+#personForm .form__item {
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+#personForm .form__item .select-user {
+  color: black;
+}
+#personForm .form__item .spNoti {
+  color: red;
+  margin-left: 40px;
+}
+#personForm select:focus {
+  box-shadow: none;
+}
+
+.content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #dae6ff, #ffc9c9);
+}
+
+.table-responsive {
+  overflow: unset;
+}
+
+.table thead th {
+  vertical-align: middle;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}/*# sourceMappingURL=style.css.map */
