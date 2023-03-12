@@ -106,6 +106,7 @@ window.updatePerson = function updatePerson(personID) {
   };
 
   let categoryForm = getElement("#categoryForm").value;
+
   switch (categoryForm) {
     case "Học sinh":
       const isValidStudent = validateFormStudent();
@@ -124,6 +125,7 @@ window.updatePerson = function updatePerson(personID) {
       alertSuccess("Cập nhật dữ liệu nhân viên thành công");
       break;
     case "Khách hàng":
+      const isValidCustomer = validateFormCustomer();
       if (!isValidCustomer) {
         return;
       }
